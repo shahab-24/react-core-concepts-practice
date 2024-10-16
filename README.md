@@ -1,8 +1,21 @@
-# React + Vite
+# React Components and Hooks Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates fundamental React concepts including components, state management (`useState`), side effects (`useEffect`), prop passing, destructuring, project setup using Vite, and applying styles with JSX and CSS.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Project Setup with Vite](#project-setup-with-vite)
+- [React Components](#react-components)
+- [useState Hook](#usestate-hook)
+- [useEffect Hook](#useeffect-hook)
+- [Props and Destructuring](#props-and-destructuring)
+- [JSX and CSS Styling](#jsx-and-css-styling)
+- [Running the Project](#running-the-project)
+
+## Project Setup with Vite
+
+We used **Vite** to set up the project, a fast build tool for modern web development. Vite offers instant server start, optimized build outputs, and a fast HMR (Hot Module Replacement).
+
+1. **Create the Project**:
+   ```bash
+   npm create vite@latest my-react-app --template react
